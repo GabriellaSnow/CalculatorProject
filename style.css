@@ -1,0 +1,62 @@
+html {
+        background: linear-gradient(rgb(238, 255, 129), rgb(16, 97, 51));
+
+}
+
+h1 {
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:rgb(9, 88, 30);
+    text-decoration:underline;
+}
+
+table {
+    border: 0.1em solid rgb(120, 154, 188);
+    border-collapse: collapse;
+    border-radius: 2em;
+    /*work on the border of the table so it is rounded off*/
+    width:95%;
+    margin-left: 2.5%;
+    background-color: rgb(134, 181, 214);
+}
+
+table caption {
+    border: 0.1em solid rgb(20, 180, 63);
+    border-radius: 20px 20px 0px 0px;
+    font-size: 1.5em;
+    background-color:rgb(20, 180, 63);
+
+}
+
+
+th, td {
+    width: 25px;
+    height:25px;
+    border: 0.1em solid  rgb(9, 88, 30);
+    padding:0.5em;
+    background-color: rgb(9, 88, 30);
+    text-align: center;
+}
+
+table caption input {
+    text-align: right;
+    /*This puts the 0 on the right */
+}
+
+/* Try and get the buttons rounded and nicer */
+input {
+    width: 95%;
+    height: 2.5em;
+    font-size: 2em;
+    border:none;
+    border-radius: 25em;
+    color: rgb(9, 88, 30);}
+
+
+footer  {
+    text-align: center;
+    color: white;
+    font-size: smaller;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
